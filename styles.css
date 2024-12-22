@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (min-width: 1024px) {
+    header nav ul {
+        gap: 2rem;
+    }
+    main {
+        max-width: 1024px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    header nav ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    main {
+        max-width: 768px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 767px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    main {
+        padding: 0.5rem;
+        text-align: center;
+    }
+}
+
+h7 ,h6 , h3 ,h4 ,h5, {
+    font-style: normal;
+    font-size:1rem;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    background-position: center;
+}
+
+.footer1{
+    display: inline;
+    text-align: justify;
+    
+}
+.Home{
+    text-shadow: 0cqh;
+    background-color: black;
+}
+
